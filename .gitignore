@@ -6,6 +6,25 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+
+reports/
+
+data/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+*.json
+
+# Large model/data files
+*.pickle
+*.pkl
+*.joblib
+
 # Distribution / packaging
 .Python
 build/
