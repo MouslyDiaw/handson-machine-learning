@@ -3,7 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
- - pip:
+  - python>=3.12
+  - pip
+  - pip:
     - folium==0.20.0
     - jupyterlab==4.4.9
     - loguru==0.7.3

@@ -24,9 +24,9 @@ $ cd handson-machine-learning
 
 Next, run the following commands:
 ```
-$ conda env create -f requirements.yml
+$ conda env create -f environment.yml
 $ conda activate handson
-$ python -m ipykernel install --user --name=python3
+$ python -m ipykernel install --user --name=handson
 ```
 
 Finally, start Jupyter:
