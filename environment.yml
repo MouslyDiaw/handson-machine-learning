@@ -1,4 +1,4 @@
-name: handson_test_env
+name: handson_ml
 channels:
   - conda-forge
   - defaults
@@ -18,9 +18,9 @@ dependencies:
     - pendulum==3.1.0
     - plotly==6.3.0
     - seaborn==0.13.2
-    - session_info==1.0.1
+    - session-info==1.0.1
     - shap==0.48.0
-    - sklearn==1.7.2
+    - scikit-learn==1.7.2
     - statsmodels==0.14.5
-    - ydata_profiling==4.17.0
+    - ydata-profiling==4.17.0
     - yellowbrick==1.5
